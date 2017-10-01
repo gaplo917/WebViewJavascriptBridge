@@ -9,6 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "WebViewJavascriptBridgeBase.h"
 
+//! Project version number for WebViewJavascriptBridge.
+FOUNDATION_EXPORT double WebViewJavascriptBridgeVersionNumber;
+
+//! Project version string for WebViewJavascriptBridge.
+FOUNDATION_EXPORT const unsigned char WebViewJavascriptBridgeVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <WebViewJavascriptBridge/PublicHeader.h>
+
 #if (__MAC_OS_X_VERSION_MAX_ALLOWED > __MAC_10_9 || __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_7_1)
 #define supportsWKWebView
 #endif
